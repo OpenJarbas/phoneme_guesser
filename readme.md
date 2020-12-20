@@ -12,6 +12,8 @@ words
 
 help wanted to implement heuristics for other languages
 
+see supported languages in [this folder](./res) 
+
 # Install
 
 ```bash
