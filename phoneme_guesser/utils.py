@@ -1,10 +1,8 @@
 from difflib import SequenceMatcher
 import re
-from unidecode import unidecode
 
 
 def normalize_word(word, replacement=" "):
-    word = unidecode(word)
     word = re.sub('[^a-zA-Z0-9 \n\.]', replacement, word)
     return word.lower()
 
